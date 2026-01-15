@@ -1,5 +1,5 @@
 # appium-mobile-automation-browserstack
-This automation project uses Appium, Java, TestNG, Maven, single sign-on
+This automation project uses Appium, Java, TestNG, Maven, single sign-on in BrowserStack.
 
 **Author: Amit Das**
 
