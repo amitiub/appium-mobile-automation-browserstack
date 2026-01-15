@@ -1,3 +1,6 @@
+# appium-mobile-automation-demo
+This automation project uses Appium, Java, TestNG, Maven, single sign-on
+
 **Author: Amit Das**
 
 
@@ -134,3 +137,5 @@ This gives a complete test picture for each device.
 * Clean POM layer for future expansion
 * Consistent BrowserStack session naming
 * Each method result clearly visible in BrowserStack logs
+=======
+

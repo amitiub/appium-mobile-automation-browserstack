@@ -46,4 +46,8 @@ Thumbs.db
 *.ear
 *.zip
 *.tar.gz
+<<<<<<< HEAD
 *.rar
+=======
+*.rar
+>>>>>>> d46033041ef56b21a097da7569bc807600a925bc
