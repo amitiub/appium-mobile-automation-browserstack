@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests" thread-count="3">
+
+  <!-- Google Pixel 9 -->
+  <test name="Pixel9" preserve-order="true">
+    <parameter name="deviceName" value="Google Pixel 9"/>
+    <parameter name="platformVersion" value="16.0"/>
+    <parameter name="app" value="bs://fb13ff48279675c3ffc2b1217cf2bb6c05ae063d"/>
+    <parameter name="project" value="SwagLabs App Tests"/>
+    <parameter name="build" value="Build-1"/>
+    <classes>
+      <class name="com.amit.apptest.tests.ProductsTest"/>
+      <class name="com.amit.apptest.tests.CartTest"/>
+      <class name="com.amit.apptest.tests.ProductListViewTest"/>
+      <class name="com.amit.apptest.tests.LogoutTest"/>
+      <class name="com.amit.apptest.tests.LoginTest"/>
+    </classes>
+  </test>
+
+  <!-- Samsung Galaxy S25 -->
+  <test name="GalaxyS25" preserve-order="true">
+    <parameter name="deviceName" value="Samsung Galaxy S25"/>
+    <parameter name="platformVersion" value="15.0"/>
+    <parameter name="app" value="bs://fb13ff48279675c3ffc2b1217cf2bb6c05ae063d"/>
+    <parameter name="project" value="SwagLabs App Tests"/>
+    <parameter name="build" value="Build-1"/>
+    <classes>
+      <class name="com.amit.apptest.tests.ProductsTest"/>
+      <class name="com.amit.apptest.tests.CartTest"/>
+      <class name="com.amit.apptest.tests.ProductListViewTest"/>
+      <class name="com.amit.apptest.tests.LogoutTest"/>
+      <class name="com.amit.apptest.tests.LoginTest"/>
+    </classes>
+  </test>
+
+  <!-- OnePlus 9 -->
+  <test name="OnePlus9" preserve-order="true">
+    <parameter name="deviceName" value="OnePlus 9"/>
+    <parameter name="platformVersion" value="11.0"/>
+    <parameter name="app" value="bs://fb13ff48279675c3ffc2b1217cf2bb6c05ae063d"/>
+    <parameter name="project" value="SwagLabs App Tests"/>
+    <parameter name="build" value="Build-1"/>
+    <classes>
+      <class name="com.amit.apptest.tests.ProductsTest"/>
+      <class name="com.amit.apptest.tests.CartTest"/>
+      <class name="com.amit.apptest.tests.ProductListViewTest"/>
+      <class name="com.amit.apptest.tests.LogoutTest"/>
+      <class name="com.amit.apptest.tests.LoginTest"/>
+    </classes>
+  </test>
+
+</suite>
