@@ -140,7 +140,7 @@ This gives a complete test picture for each device.
 =======
 Please remember to add the following info in DriverFactory class:
 
-private static final String BS_USER = "<YOUR_BS_USER>";
-    private static final String BS_KEY = "<YOUR_BS_KEY>";
-    private static final String BS_URL = "https://hub.browserstack.com/wd/hub";
-    private static final String BS_APP_ID = "<YOUR_BS_APP_ID>";
+    * private static final String BS_USER = "<YOUR_BS_USER>";
+    * private static final String BS_KEY = "<YOUR_BS_KEY>";
+    * private static final String BS_URL = "https://hub.browserstack.com/wd/hub";
+    * private static final String BS_APP_ID = "<YOUR_BS_APP_ID>";
